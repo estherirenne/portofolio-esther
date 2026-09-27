@@ -342,6 +342,23 @@ margin-bottom: 8px;
   font-size: 14px;
   line-height: 1.5;
 }
+@media screen and (max-width: 600px) {
+  .portofolio .heading,
+  .skills .section-title,
+  #service .title h2,
+  #contact h2 {
+    font-size: 36px;
+  }
+
+  .about-text h2 {
+    font-size: 40px;
+  }
+
+  .container .hero-text h1 {
+    font-size: 32px;
+  }
+}
+
 @media screen and (max-width: 768px){
   .portofolio .box-container{
     grid-template-columns: 1fr;
