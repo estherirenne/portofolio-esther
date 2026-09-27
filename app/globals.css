@@ -299,7 +299,7 @@ a button:hover {
 }
 .portofolio .heading {
   color: white;
-  font-size: 60px;
+  font-size: 30px;
   margin-bottom: 40px;
 }
 .portofolio .box-container {
@@ -341,7 +341,7 @@ margin-bottom: 8px;
   font-size: 14px;
   line-height: 1.5;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
   .portofolio .box-container{
     grid-template-columns: 1fr;
   }
