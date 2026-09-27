@@ -97,11 +97,11 @@ export default function Home() {
                 <a href="https://www.instagram.com/wntresthr_?igsh=Z3M3a2VmajRsYXF3&utm_source=qr" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-instagram"></i>
                 </a>
-                <a href="https://x.com/irenirenne_?s=21" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/esther_irenne?s=11" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-x-twitter"></i>
                 </a>
-                <a href="https://www.tiktok.com/@idkwhohm?_t=ZS-8xWdnpz3WAE&_r=1" target="_blank" rel="noopener noreferrer">
-                  <i className="fa-brands fa-tiktok"></i>
+                <a href="https://www.threads.com/@wntresthr_?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer">
+                  <i className="fa-brands fa-threads"></i>
                 </a>
               </div>
               <a href="#about"><button type="button">More About Me</button></a>
@@ -164,7 +164,6 @@ export default function Home() {
         <div className="service">
           <div className="title">
             <h2>Our Services</h2>
-            <p className="service-note">*Read More button still not working</p>
           </div>
 
           <div className="box">
@@ -174,7 +173,6 @@ export default function Home() {
               <div className="pra">
                 <p>Create a user-friendly and aesthetic interface.</p>
                 <p style={{ textAlign: "center" }}>
-                  <a className="button" href="#">Read More</a>
                 </p>
               </div>
             </div>
@@ -185,7 +183,6 @@ export default function Home() {
               <div className="pra">
                 <p>Building a strong visual identity for your personal brand.</p>
                 <p style={{ textAlign: "center" }}>
-                  <a className="button" href="#">Read More</a>
                 </p>
               </div>
             </div>
@@ -196,7 +193,6 @@ export default function Home() {
               <div className="pra">
                 <p>create a landing page display using next.js, html, css and deployment using vercel.</p>
                 <p style={{ textAlign: "center" }}>
-                  <a className="button" href="#">Read More</a>
                 </p>
               </div>
             </div>
