@@ -473,15 +473,6 @@ span {
     transition: right 0.3s right;
     border-radius: 10px;
   }
-  header{
-    padding: 40px 0 30px;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    overflow: visible;
-}
   nav .nav-list li {
     display: block;
   }
