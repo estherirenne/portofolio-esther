@@ -303,6 +303,23 @@ a button:hover {
   font-size: 60px;
   margin-bottom: 40px;
 }
+@media screen and (max-width: 600px) {
+  .portofolio .heading,
+  .skills .section-title,
+  #service .title h2,
+  #contact h2 {
+    font-size: 36px;
+  }
+
+  .about-text h2 {
+    font-size: 40px;
+  }
+
+  .container .hero-text h1 {
+    font-size: 32px;
+  }
+}
+
 .portofolio .box-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -341,22 +358,6 @@ margin-bottom: 8px;
   color: #ccc;
   font-size: 14px;
   line-height: 1.5;
-}
-@media screen and (max-width: 600px) {
-  .portofolio .heading,
-  .skills .section-title,
-  #service .title h2,
-  #contact h2 {
-    font-size: 36px;
-  }
-
-  .about-text h2 {
-    font-size: 40px;
-  }
-
-  .container .hero-text h1 {
-    font-size: 32px;
-  }
 }
 
 @media screen and (max-width: 768px){
