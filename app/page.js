@@ -231,14 +231,14 @@ export default function Home() {
         <p><i className="fa-brands fa-line"></i> esthernasya25_</p>
 
         <form action="https://formspree.io/f/xkgbywyd" method="POST" className="contact-form">
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Your Email" required />
-          <input type="text" name="title" placeholder="Project title" required />
-          <textarea name="Description" placeholder="Project description..." rows="5" required></textarea>
-          <input type="url" name="link" placeholder="Project link (optional)" />
-          <textarea placeholder="Write a message or comment..." rows="4" required></textarea>
-          <button type="submit">Send</button>
-        </form>
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <input type="text" name="title" placeholder="Project title" required />
+  <textarea name="description" placeholder="Project description..." rows="5" required></textarea>
+  <input type="url" name="link" placeholder="Project link (optional)" />
+  <textarea name="message" placeholder="Write a message or comment..." rows="4" required></textarea>
+  <button type="submit">Send</button>
+</form>
       </section>
     </>
   );
