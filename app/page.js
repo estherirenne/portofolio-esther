@@ -100,8 +100,8 @@ export default function Home() {
                 <a href="https://x.com/esther_irenne?s=11" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-x-twitter"></i>
                 </a>
-                <a href="https://www.threads.com/@wntresthr_?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer">
-                  <i className="fa-brands fa-threads"></i>
+                <a href="https://www.linkedin.com/in/esther-nasya" target="_blank" rel="noopener noreferrer">
+                  <i className="fa-brands fa-linkedin"></i>
                 </a>
               </div>
             <div className="cta-buttons">
