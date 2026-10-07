@@ -104,7 +104,12 @@ export default function Home() {
                   <i className="fa-brands fa-threads"></i>
                 </a>
               </div>
+            <div className="cta-buttons">
               <a href="#about"><button type="button">More About Me</button></a>
+              <a href="/EstherNasyaIrenne_CV.pdf" download target="_blank" rel="noopener noreferrer">
+                <button type="button">Download CV</button>
+              </a>
+            </div>
             </div>
 
             <div className="bottom">

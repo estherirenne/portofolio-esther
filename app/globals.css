@@ -169,6 +169,11 @@ a button:hover {
   background-color: white;
   color: #aa3af5;
 }
+.cta-buttons{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
 @media screen and (max-width: 768px) {
   .about .main {
     flex-direction: column;
@@ -222,7 +227,7 @@ a button:hover {
 }
 
 #service {
-  background: #101010;
+  background: #191919;
   padding: 60px 20px;
   color: white;
   text-align: center;
@@ -241,7 +246,7 @@ a button:hover {
 }
 #service .card {
   width: 320px;
-  background: #191919;
+  background: #374151;
   padding: 25px;
   border-radius: 15px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
