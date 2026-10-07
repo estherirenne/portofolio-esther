@@ -121,10 +121,10 @@ export default function Home() {
           <div className="about-text">
             <h2>About Me</h2>
             <h5>CS Student & 5th-Semester</h5>
-            <p> an undergraduate Computer Science student at Bina Nusantara University (BINUS). </p>
-            <p> Diving into the world of tech has taught me that building great digital solutions requires continuous growth, especially in programming and technical logic. I see coding not just as an academic requirement, but as a powerful medium to bring ideas to life from crafting intuitive mobile prototypes to exploring intelligent AI systems and cloud infrastructure. </p>
-            <p> In today's fast-evolving landscape, I believe that leveraging modern tools like AI is essential to accelerate development and turn ambitious concepts into reality efficiently. Beyond academic projects, I actively hone my UI/UX expertise through hands-on experience, such as serving as a core team staff member in the thematic design division for Google Developer Groups on Campus (GDGOC) BINUS Bandung. </p> 
-            <p> I love blending this technical and design foundation with my creative and strategic interests whether through exploring business innovation or expressing myself through music. I am driven by curiosity and adaptability, always eager to learn and blend these diverse fields into meaningful, impactful solutions.</p>
+            <p>As a 5th-semester Computer Science undergraduate at Bina Nusantara University (BINUS) Bandung, my background is rooted in building strong technical logic and digital solutions.</p>
+            <p>I am currently studying software development, modern cloud infrastructure, and UI/UX design gaining hands on experience through roles such as core team staff in the thematic design division for GDGOC BINUS Bandung.</p>
+            <p>Driven by a passion for modern tech, my primary technological interests lie in intelligent AI systems and scalable web technologies.</p>
+            <p>Looking ahead, my career interest is focused on build a dynamic career at the intersection of technology and creative problem solving focusing on roles such as Software Engineer, AI/Cloud Developer, or UI/UX Product Designer where I can blend technical logic with innovative digital experiences.</p>
             <a href="mailto:esther.irenne@binus.ac.id?subject=Hai%20Irenne&body=Halo,%20saya%20ingin%20berbicara%20lebih%20lanjut.">
               <button type="button">Let&apos;s Talk!</button>
             </a>
@@ -137,24 +137,20 @@ export default function Home() {
         <h2 className="section-title">My <span>Skills</span></h2>
         <div className="skills-container">
           <div className="skill-box">
-            <h3>Organizational</h3>
-            <p>Project Management</p>
+            <h3>Programming</h3>
+            <p>Python, JavaScript, CSS, HTML</p>
           </div>
           <div className="skill-box">
-            <h3>Frontend</h3>
-            <p>HTML, CSS, JavaScript</p>
+            <h3>Web development</h3>
+            <p>Next.js, Vue.js/React</p>
           </div>
           <div className="skill-box">
             <h3>Language</h3>
             <p>Bahasa Indonesia, English</p>
           </div>
           <div className="skill-box">
-            <h3>Computer Skills</h3>
-            <p>UI/UX Design</p>
-          </div>
-          <div className="skill-box">
-            <h3>Communication</h3>
-            <p>Team Collaboration</p>
+            <h3>Tools</h3>
+            <p>Git, GitHub, Docker</p>
             </div>
         </div>
       </section>
@@ -163,37 +159,53 @@ export default function Home() {
       <section id="service">
         <div className="service">
           <div className="title">
-            <h2>Our Services</h2>
+            <h2>Education & Experience</h2>
           </div>
 
           <div className="box">
             <div className="card">
               <i className="fa-solid fa-bars"></i>
-              <h5>UI/UX Design</h5>
+              <h5>Education & Internship</h5>
               <div className="pra">
-                <p>Create a user-friendly and aesthetic interface.</p>
-                <p style={{ textAlign: "center" }}>
-                </p>
+                  <p className="sub-heading">Education:</p>
+                <ul>
+                  <li>Undergraduate Computer Science at Bina Nusantara University (BINUS) Bandung (5th Semester)</li>
+                </ul>
+                  <p className="sub-heading">Internship/Project Experience:</p>
+                <ul>
+                  <li>Involved in real world application developments, cloud infrastructure configurations, and multi step AI integration projects.</li>
+                </ul>
               </div>
             </div>
 
             <div className="card">
               <i className="fa-regular fa-user"></i>
-              <h5>Branding</h5>
+              <h5>Organization & Competition</h5>
               <div className="pra">
-                <p>Building a strong visual identity for your personal brand.</p>
-                <p style={{ textAlign: "center" }}>
-                </p>
+                  <p className="sub-heading">Organization:</p>
+                <ul>
+                  <li>Core Team Staff in the Thematic Design Division for Google Developer Groups on Campus (GDGOC) BINUS Bandung.</li>
+                </ul>
+                  <p className="sub-heading">Competition:</p>
+                <ul>
+                  <li>Finalist in the BYFest Idea Competition 2025.</li>
+                </ul> 
               </div>
             </div>
 
             <div className="card">
               <i className="fa-regular fa-bell"></i>
-              <h5>Frontend</h5>
+              <h5>Research & Certification</h5>
               <div className="pra">
-                <p>create a landing page display using next.js, html, css and deployment using vercel.</p>
-                <p style={{ textAlign: "center" }}>
-                </p>
+                <p className="sub-heading">Research:</p>
+              <ul>
+                <li>Explored computational biology workflows (BioPython) and automated image classification models (MobileNetV2, YOLO).</li>
+              </ul>
+                <p className="sub-heading">Certificate:</p>
+                <ul>
+                <li>Google Development Group On Campus BINUS Bandung Certificate (UI/UX Designer, September 2026).</li>
+                <li>Google Cloud Computing Certificate (Google Cloud, May 2026).</li>
+                </ul>
               </div>
             </div>
           </div>

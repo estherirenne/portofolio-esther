@@ -221,12 +221,6 @@ a button:hover {
   color: #ddd;
 }
 
-.service-note {
-  color: white;
-  text-align: left;
-  max-width: 820px;
-  margin: 0 auto 20px auto;
-}
 #service {
   background: #101010;
   padding: 60px 20px;
@@ -242,47 +236,55 @@ a button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: stretch;
   gap: 25px;
 }
 #service .card {
-  width: 260px;
+  width: 320px;
   background: #191919;
-  padding: 20px;
+  padding: 25px;
   border-radius: 15px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 #service .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 #service .card i {
   font-size: 30px;
   color: #aa3af5;
   margin-bottom: 10px;
+  text-align: center;
 }
 #service .card h5 {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: #fff;
+  text-align: center;
 }
-#service .card .pra p {
+#service .card .pra {
+  text-align: left;
+}
+#service .card .sub-heading {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 12px;
+  text-align: left;
+}
+#service .card ul {
+  padding-left: 18px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+#service .card ul li {
   font-size: 14px;
   color: #fcfc;
   margin-bottom: 10px;
-}
-#service .card .button {
-  display: inline-block;
-  background: #aa3af5;
-  color: white;
-  padding: 8px 20px;
-  border-radius: 26px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-#service .card .button:hover {
-  background: white;
-  color: #aa3af5;
+  line-height: 1.5;
 }
 
 .portofolio-note {
