@@ -227,7 +227,7 @@ a button:hover {
 }
 
 #service {
-  background: #191919;
+  background: #111;
   padding: 60px 20px;
   color: white;
   text-align: center;
@@ -246,7 +246,7 @@ a button:hover {
 }
 #service .card {
   width: 320px;
-  background: #374151;
+  background: #191919;
   padding: 25px;
   border-radius: 15px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
@@ -290,6 +290,13 @@ a button:hover {
   color: #fcfc;
   margin-bottom: 10px;
   line-height: 1.5;
+}
+.pub-link{
+  color: #d9b3ff;
+  text-decoration: underline;
+}
+.pub-link:hover{
+  color: white;
 }
 
 .portofolio-note {
@@ -366,6 +373,7 @@ margin-bottom: 8px;
   font-size: 14px;
   line-height: 1.5;
 }
+
 
 @media screen and (max-width: 768px){
   .portofolio .box-container{

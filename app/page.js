@@ -81,6 +81,7 @@ export default function Home() {
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#service">Service</a></li>
+                <li><a href="#certification">Certification</a></li>
                 <li className="btn"><a href="#contact">Contact & Comment</a></li>
               </ul>
             </nav>
@@ -206,8 +207,22 @@ export default function Home() {
               <ul>
                 <li>Explored computational biology workflows (BioPython) and automated image classification models (MobileNetV2, YOLO).</li>
               </ul>
-                <p className="sub-heading">Certificate:</p>
-                <ul>
+                  <p className="sub-heading">Publication:</p>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://ieeexplore.ieee.org/document/11715402"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="pub-link"
+                        >
+                          Deep Learning Model for Image-Based Skin Disease Classification
+                        </a>{""}
+                        - IEEE ICISS 2026.
+                    </li>
+                  </ul>
+                  <p className="sub-heading">Certificate:</p>
+                  <ul>
                 <li>Google Development Group On Campus BINUS Bandung Certificate (UI/UX Designer, September 2026).</li>
                 <li>Google Cloud Computing Certificate (Google Cloud, May 2026).</li>
                 </ul>
@@ -237,6 +252,30 @@ export default function Home() {
             </a>
           ))}
           </div>
+      </section>
+
+      {/* CERTIFICATION */}
+      <section className="portofolio" id="certification">
+        <h2 className="heading">My<span>Certification</span></h2>
+        <p className="portofolio-note">*Click on the certificate to view it</p>
+
+        <div className="box-container">
+          {certificationItems.map((item)=>(
+            <a
+            key={item.title}
+            href={item.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="box"
+            >
+              <img src={item.image} alt={item.title} />
+              <div className="box-info">
+                <h4>{item.title}</h4>
+                <p>{item.description}</p>
+              </div>
+            </a>
+          ))}
+        </div>
       </section>
 
       {/* CONTACT */}
@@ -292,5 +331,26 @@ export default function Home() {
         description: "This application is an ongoing group project developed for a Mobile Programming course. The project is currently in the prototype stage, focusing on designing a digital solution tailored to support individuals with ADHD and mild autism. My core contributions within the team include mapping user flows, designing the user interface (UI/UX), and developing the interactive prototype in Figma to help reduce cognitive overload and assist users with task management.",
         image: "/portofolio5.jpg",
         link: "https://www.figma.com/proto/U6NNRBBu4EBHpJa63Zgvd9/Pacefuly?node-id=0-1&t=M7X3SIOz7fBGBoue-1",
+      },
+    ];
+
+    const certificationItems = [
+      {
+        title: "UI/UX Designer Certificate",
+        description: "Google Developer Groups on Campus (GDGOC) BINUS Bandung, September 2026.",
+        image: "/cert-gdgoc.jpg",
+        link: "/cert-gdgoc.jpg",
+      },
+      {
+        title: "Google Cloud Computing Certificate",
+        description: "Google Cloud, May 2026.",
+        image: "/serti_cloud.png",
+        link: "/https://www.credly.com/badges/85daac67-4259-4f1c-924c-a6c4cd745c62",
+      },
+      {
+        title: "Deep Learning Model for Image-Based Skin Disease Classification",
+        description: "Published at IEEE ICISS 2026, Bandung, Indonesia.",
+        image: "/Publish_Paper.png",
+        link: "https://ieeexplore.ieee.org/document/11715402",
       },
     ];
