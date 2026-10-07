@@ -150,7 +150,7 @@ export default function Home() {
           </div>
           <div className="skill-box">
             <h3>Tools</h3>
-            <p>Git, GitHub, Docker</p>
+            <p>Git, GitHub, Docker, Figma</p>
             </div>
         </div>
       </section>
