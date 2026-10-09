@@ -13,6 +13,8 @@ export default function Home() {
     "5th-semester.",
   ];
 
+  const longest = words.reduce((a, b) => (b.length > a.length ? b : a), "");
+
   // Efek mengetik otomatis (pengganti Typed.js)
   useEffect(() => {
     let wordIndex = 0;
@@ -91,7 +93,11 @@ export default function Home() {
             <div className="hero-text">
               <h3>Hello!</h3>
               <h1>
-                I Am <span className="input">{typedText}</span>
+                I Am {""}
+                <span className="typed-wrapper">{typedText}
+                  <span className="typed-ghost" aria-hidden="true">{longest}</span>
+                  <span className="input typed-live">{typedText}</span>
+                </span>
               </h1>
               <p><i className="fa-solid fa-location-dot"></i>Bandung, Jawa Barat</p>
               <div className="social">

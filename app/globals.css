@@ -331,7 +331,6 @@ a button:hover {
 
   .container .hero-text h1 {
     font-size: 32px;
-    min-height: 4.6em;
   }
 }
 
@@ -410,7 +409,15 @@ nav .nav-list li.btn:hover a {
   font-weight: 900;
   line-height: 1.2;
   margin: 20px 0px 20px;
-  min-height: 2.4em;
+}
+.typed-wrapper {
+  display: inline-grid;
+}
+.typed-wrapper > span {
+  grid-area: 1 / 1;
+}
+.typed-ghost {
+  visibility: hidden;
 }
 span {
   color: #aa3af5;
