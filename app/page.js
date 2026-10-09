@@ -93,8 +93,8 @@ export default function Home() {
             <div className="hero-text">
               <h3>Hello!</h3>
               <h1>
-                I Am {""}
-                <span className="typed-wrapper">{typedText}
+                I Am{""}
+                <span className="typed-wrapper">
                   <span className="typed-ghost" aria-hidden="true">{longest}</span>
                   <span className="input typed-live">{typedText}</span>
                 </span>
