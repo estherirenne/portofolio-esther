@@ -331,6 +331,7 @@ a button:hover {
 
   .container .hero-text h1 {
     font-size: 32px;
+    min-height: 3.6em;
   }
 }
 
