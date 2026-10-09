@@ -409,6 +409,7 @@ nav .nav-list li.btn:hover a {
   font-weight: 900;
   line-height: 1.2;
   margin: 20px 0px 20px;
+  min-height: 2.4em;
 }
 span {
   color: #aa3af5;
